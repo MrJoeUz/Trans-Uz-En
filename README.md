@@ -24,8 +24,8 @@ output: int salom!
 Example-2. Uzbek-English:
 2-Misol. O'zbekcha - Inglizcha:
 
- from trans_uz_en import trans
- word = trans(l_from='uz', to='en')
- print(word.trans("bomba"))
+1 - from trans_uz_en import trans
+2 - word = trans(l_from='uz', to='en')
+3 - print(word.trans("bomba"))
     
 output: (Russian) bomb.
