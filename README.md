@@ -15,17 +15,17 @@ MrJoeUz@gmail.com
 Example-1. English - Uzbek:
 1-Misol. Inglizcha - O'zbekcha:
 
-from uz_en_dictionary import Translator
-d = Translator(from_lang='en', to='uz')
-print(d.translate("hi"))
+>>> from trans import trans
+>>> word = trans(l_from='en', to='uz')
+>>> print(word.trans("hi"))
 
->>> int salom!
+output: int salom!
 
 Example-2. Uzbek-English:
 2-Misol. O'zbekcha - Inglizcha:
 
-from uz_en_dictionary import Translator
-d = Translator(from_lang='uz', to='en')
-print(d.translate("bomba"))
+>>> from trans_uz_en import trans
+>>> word = trans(l_from='uz', to='en')
+>>> print(word.trans("bomba"))
     
->>> (Russian) bomb.
+output: (Russian) bomb.
