@@ -15,11 +15,11 @@ MrJoeUz@gmail.com
 Example-1. English - Uzbek:
 1-Misol. Inglizcha - O'zbekcha:
 
->from trans import trans
+from trans import trans
 word = trans(l_from='en', to='uz')
 print(word.trans("hi"))
 
-output: int salom!
+: int salom!
 
 Example-2. Uzbek-English:
 2-Misol. O'zbekcha - Inglizcha:
