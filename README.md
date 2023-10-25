@@ -1,30 +1,31 @@
 # Trans-Uz-En
 Project: English - Uzbek Dictionary
-Proyekt: Inglizcha - O'zbekcha Lug'at
 
 Created: 25.10.2023
-Yaratildi: 25.10.2023
 
 Author: Mr. Joe Uz
-Muallif: Mr. Joe Uz
 
 Telegram:
-    https://t.me/MrJoeUz
+https://t.me/MrJoeUz
 YouTube:
-    https://youtube.com/MrJoeUz
+https://youtube.com/MrJoeUz
 E-mail:
-    MrJoeUz@gmail.com
+MrJoeUz@gmail.com
      
-Example-1. English - Uzbek | 1-Misol. Inglizcha - O'zbekcha:
-    from uz_en_dictionary import Translator
-    d = Translator(from_lang='en', to='uz')
-    print(d.translate("hi"))
+Example-1. English - Uzbek:
+1-Misol. Inglizcha - O'zbekcha:
 
-    >>> int salom!
+from uz_en_dictionary import Translator
+d = Translator(from_lang='en', to='uz')
+print(d.translate("hi"))
 
-Example-2. Uzbek-English | 2-Misol. O'zbekcha - Inglizcha:
-    from uz_en_dictionary import Translator
-    d = Translator(from_lang='uz', to='en')
-    print(d.translate("bomba"))
+>>> int salom!
+
+Example-2. Uzbek-English:
+2-Misol. O'zbekcha - Inglizcha:
+
+from uz_en_dictionary import Translator
+d = Translator(from_lang='uz', to='en')
+print(d.translate("bomba"))
     
-    >>> (Russian) bomb.
+>>> (Russian) bomb.
