@@ -15,7 +15,7 @@ MrJoeUz@gmail.com
 Example-1. English - Uzbek:
 1-Misol. Inglizcha - O'zbekcha:
 
->>> from trans import trans
+--> from trans import trans
 >>> word = trans(l_from='en', to='uz')
 >>> print(word.trans("hi"))
 
